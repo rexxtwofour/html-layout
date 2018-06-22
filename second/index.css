@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+
+.solid {
+    background: white;
+    height: 200px;
+    border: black 3px solid;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    
+}
+
+.purple, .circle, .green {
+    display: inline-block;
+
+}
+
+
+
+.purple {
+    background: purple;
+    height: 120px;
+    width: 40px;
+    border:3px;
+    padding-bottom: 10px;
+    margin: 0px 20px 0px 10px;
+   
+    
+    
+    
+}
+
+.green {
+    background: green;
+    height: 170px;
+    width: 330px;
+    border:3px;
+    padding: 2px;
+    margin: 0px;
+    
+}
+.circle {
+    background: mediumaquamarine;
+    height: 140px;
+    width: 140px;
+    border:3px;
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 100px;
+
+    
+}
+.dots {
+    height: 350px;
+    border: black 3px dotted;
+    padding: 20px;
+    margin: 10px;
+}
+.beige {
+    background: beige;
+    height: 275px;
+    width: 98%;
+    box-shadow: 5px 5px gray;
+    padding: 25px 25px;
+    margin: 5px 10px;
+
+}
+
+
+.shadowbox {
+   
+}
+
+.hellofriends {
+    background:white;
+    height: 150px;
+    width: 30%;
+    border: grey 1px solid;
+    box-shadow: 5px 5px;
+    box-shadow: 5px 5px 5px lightslategray;
+    padding: 25px 25px;
+    margin: auto;
+    text-align: center;
+    text-decoration-color: blue;
+
+}
